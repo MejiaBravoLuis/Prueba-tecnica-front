@@ -6,7 +6,7 @@ export default function Home() {
       <nav className="border-b border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-slate-900 dark:text-white">
-            Chat
+            AuthCode
           </h1>
         </div>
       </nav>
@@ -14,18 +14,18 @@ export default function Home() {
       <div className="max-w-6xl mx-auto px-4 py-20 text-center">
         <div className="mb-8">
           <h2 className="text-5xl md:text-6xl font-bold text-slate-900 dark:text-white mb-4">
-            Welcome
+            Bienvenido
           </h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Chat application built with Next.js and React Query.
+            Aplicación de chat para empresas y clientes.
           </p>
         </div>
 
         <Link
           href="/chats"
-          className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg hover:shadow-lg hover:scale-105 transition transform inline-block"
+          className="px-8 py-4 bg-slate-900 text-white font-bold rounded-lg hover:bg-slate-700 hover:shadow-lg transition transform inline-block"
         >
-          Open Chats
+          Abrir chats
         </Link>
       </div>
     </div>
